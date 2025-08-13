@@ -46,7 +46,10 @@ function ChatWindow() {
     };
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/chat`, options);
+      const response = await fetch(
+        `${import.meta.env.VITE_API_BASE_URL}/api/chat`,
+        options
+      );
       const res = await response.json();
       console.log(res);
       setReply(res.reply);
