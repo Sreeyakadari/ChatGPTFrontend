@@ -1,7 +1,11 @@
 .sidebar {
+  position: fixed; /* This pins it to the side and gives it full height */
+  top: 0;
+  left: 0;
+  bottom: 0;
   background-color: #171717;
   color: #b4b4b4;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   width: 320px;
   display: flex;
   flex-direction: column;
