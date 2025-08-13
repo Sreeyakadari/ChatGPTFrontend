@@ -7,8 +7,7 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  margin-left: 320px; /* Same as sidebar width */
-  padding: 20px;
+  margin-left: 320px; 
 }
 
 /* navbar */
