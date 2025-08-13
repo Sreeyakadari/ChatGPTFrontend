@@ -87,7 +87,7 @@ function Sidebar() {
     <section className="sidebar">
       <button onClick={createNewChat}>
         <img
-          src="/ChatGPTFrontend/blacklogo.png"
+          src="${import.meta.env.BASE_URL}blacklogo.png"
           alt="gpt logo"
           className="logo"
         ></img>
