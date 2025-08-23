@@ -1,12 +1,52 @@
-# React + Vite
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project implements a ChatGPT-like application with a frontend built using React.js and a backend powered by Node.js. The system allows users to interact with an AI model to generate responses in a conversational interface.
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React.js, Axios, CSS
 
-## Expanding the ESLint configuration
+Backend: Node.js, Express.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Model: Mistral 7B (via OpenRouter API)
+
+Database (if any): [Insert DB details, e.g., MongoDB, PostgreSQL, etc.]
+
+Other Tools/Packages: [Insert any other packages you used]
+
+Frontend
+URL: ChatGPTFrontend GitHub
+Description:
+
+This is the frontend of the ChatGPT application, built with React.js, offering an interactive and responsive chat interface for users. It communicates with the backend via API requests and displays the generated responses from the Mistral 7B model in real-time.
+
+Features:
+
+User-friendly chat interface
+
+Real-time conversation with GPT
+
+Responsive design for mobile and desktop
+
+User authentication (if implemented)
+
+Setup Instructions:
+
+Clone the repository:
+
+git clone https://github.com/Sreeyakadari/ChatGPTFrontend.git
+
+
+Navigate into the project directory:
+
+cd ChatGPTFrontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
